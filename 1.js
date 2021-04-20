@@ -1,0 +1,11 @@
+<CustomTextEditor
+                                    content={content}
+                                    disabled={saving}
+                                    setContent={setContent}
+                                    imageUploadApi={API.uploadImage}
+                                    imageDeleteApi={API.deleteImage}
+                                    videoUploadApi={API.uploadVideo}
+                                    videoDeleteApi={API.deleteVideo}
+                                    contentId={id}
+                                    storage="image/storage"
+                                  />
